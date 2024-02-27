@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: black;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 0px;
+
+}
+img{
+    padding-top: 10px;
+    padding-left: 35px;
+    height: 35px;
+}
+h1,h3{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    height: 80px;
+    width: 100%;
+    color: beige;
+}
+button{
+    text-align: center;
+    
+}
+.centered-content {
+    text-align: center;
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .yellow{
+    text-align: center;
+  }
